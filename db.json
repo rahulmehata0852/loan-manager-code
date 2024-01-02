@@ -1,0 +1,437 @@
+{
+  "admin": [
+    {
+      "name": "Rahul_Mehata",
+      "email": "rahulmahato0852@gmail.com",
+      "password": 123,
+      "id": 1,
+      "role": "admin"
+    }
+  ],
+  "employees": [
+    {
+      "name": "Rahul",
+      "email": "rahul123@gmail.com",
+      "password": "123",
+      "mobile": "8446414152",
+      "Year_Of_Experience": "1",
+      "role": "employee",
+      "id": 1
+    },
+    {
+      "name": "Vikas",
+      "email": "vikas0852@gmail.com",
+      "password": "123",
+      "mobile": "7541853706",
+      "Year_Of_Experience": "10",
+      "role": "employee",
+      "id": 2
+    },
+    {
+      "name": "tushar",
+      "email": "tushar123@gmail.com",
+      "password": "123",
+      "mobile": "8087891322",
+      "Year_Of_Experience": "1",
+      "role": "employee",
+      "id": 3
+    }
+  ],
+  "customers": [
+    {
+      "name": "Shubham",
+      "email": "shubham123@gmail.com",
+      "password": "123",
+      "mobile": "98189919",
+      "Amout_of_Loan": "10000",
+      "interst_percentage": "2.00",
+      "Month_duration_of_loan": "11",
+      "totalAmount": 10642,
+      "totalInterest": 642,
+      "installment": [
+        {
+          "date": "2023-11-4",
+          "status": "successed",
+          "EMI": 967,
+          "id": 1
+        },
+        {
+          "date": "2023-11-5",
+          "status": "pending",
+          "EMI": 967,
+          "id": 2
+        },
+        {
+          "date": "2023-11-6",
+          "status": "pending",
+          "EMI": 967,
+          "id": 3
+        },
+        {
+          "date": "2023-11-7",
+          "status": "pending",
+          "EMI": 967,
+          "id": 4
+        },
+        {
+          "date": "2023-11-8",
+          "status": "pending",
+          "EMI": 967,
+          "id": 5
+        },
+        {
+          "date": "2023-11-9",
+          "status": "pending",
+          "EMI": 967,
+          "id": 6
+        },
+        {
+          "date": "2023-11-10",
+          "status": "pending",
+          "EMI": 967,
+          "id": 7
+        },
+        {
+          "date": "2023-11-11",
+          "status": "pending",
+          "EMI": 967,
+          "id": 8
+        },
+        {
+          "date": "2023-11-12",
+          "status": "pending",
+          "EMI": 967,
+          "id": 9
+        },
+        {
+          "date": "2023-11-13",
+          "status": "pending",
+          "EMI": 967,
+          "id": 10
+        },
+        {
+          "date": "2023-11-14",
+          "status": "pending",
+          "EMI": 967,
+          "id": 11
+        }
+      ],
+      "date": "2023-11-04",
+      "EMI": 967,
+      "by": "Admin",
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "name": "vishal",
+      "email": "vishal123@gmail.com",
+      "password": "123",
+      "mobile": "8080038540",
+      "Amout_of_Loan": "8000",
+      "interst_percentage": "1.00",
+      "Month_duration_of_loan": "6",
+      "totalAmount": 8140,
+      "totalInterest": 140,
+      "EMI": 1357,
+      "installment": [
+        {
+          "date": "2023-11-4",
+          "status": "successed",
+          "EMI": 1357,
+          "id": 1
+        },
+        {
+          "date": "2023-11-5",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 2
+        },
+        {
+          "date": "2023-11-6",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 3
+        },
+        {
+          "date": "2023-11-7",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 4
+        },
+        {
+          "date": "2023-11-8",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 5
+        },
+        {
+          "date": "2023-11-9",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 6
+        }
+      ],
+      "date": "2023-11-04",
+      "by": "employee",
+      "employeeId": 1,
+      "id": 2,
+      "userId": 2
+    },
+    {
+      "name": "ashish",
+      "mobile": "81992010021",
+      "email": "ashish123@gmail.com",
+      "password": "123",
+      "date": "2023-11-04",
+      "id": 3,
+      "Amout_of_Loan": "5000",
+      "interst_percentage": "5",
+      "Month_duration_of_loan": "5",
+      "totalAmount": 5146,
+      "totalInterest": 146,
+      "userId": 3,
+      "status": "pending",
+      "by": "Admin",
+      "installment": [
+        {
+          "date": "2023-11-4",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 0
+        },
+        {
+          "date": "2023-11-5",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 1
+        },
+        {
+          "date": "2023-11-6",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 2
+        },
+        {
+          "date": "2023-11-7",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 3
+        },
+        {
+          "date": "2023-11-8",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 4
+        }
+      ],
+      "EMI": 1029
+    }
+  ],
+  "requests": [
+    {
+      "name": "ashish",
+      "email": "ashish123@gmail.com",
+      "password": "123",
+      "mobile": "81992010021",
+      "Amout_of_Loan": "10000",
+      "interst_percentage": "10",
+      "Month_duration_of_loan": "10",
+      "totalAmount": 11208.333333333334,
+      "totalInterest": 1208.3333333333333,
+      "date": "2023-11-04",
+      "userId": 3,
+      "status": "succeed",
+      "id": 1
+    }
+  ],
+  "history": [
+    {
+      "name": "Shubham",
+      "email": "shubham123@gmail.com",
+      "password": "123",
+      "mobile": "98189919",
+      "Amout_of_Loan": "10000",
+      "interst_percentage": "2.00",
+      "Month_duration_of_loan": "11",
+      "totalAmount": 10642,
+      "userId": 1,
+      "totalInterest": 642,
+      "installment": [
+        {
+          "date": "2023-11-4",
+          "status": "pending",
+          "EMI": 967,
+          "id": 1
+        },
+        {
+          "date": "2023-11-5",
+          "status": "pending",
+          "EMI": 967,
+          "id": 2
+        },
+        {
+          "date": "2023-11-6",
+          "status": "pending",
+          "EMI": 967,
+          "id": 3
+        },
+        {
+          "date": "2023-11-7",
+          "status": "pending",
+          "EMI": 967,
+          "id": 4
+        },
+        {
+          "date": "2023-11-8",
+          "status": "pending",
+          "EMI": 967,
+          "id": 5
+        },
+        {
+          "date": "2023-11-9",
+          "status": "pending",
+          "EMI": 967,
+          "id": 6
+        },
+        {
+          "date": "2023-11-10",
+          "status": "pending",
+          "EMI": 967,
+          "id": 7
+        },
+        {
+          "date": "2023-11-11",
+          "status": "pending",
+          "EMI": 967,
+          "id": 8
+        },
+        {
+          "date": "2023-11-12",
+          "status": "pending",
+          "EMI": 967,
+          "id": 9
+        },
+        {
+          "date": "2023-11-13",
+          "status": "pending",
+          "EMI": 967,
+          "id": 10
+        },
+        {
+          "date": "2023-11-14",
+          "status": "pending",
+          "EMI": 967,
+          "id": 11
+        }
+      ],
+      "date": "2023-11-04",
+      "EMI": 967,
+      "by": "Admin",
+      "id": 1
+    },
+    {
+      "name": "vishal",
+      "email": "vishal123@gmail.com",
+      "password": "123",
+      "mobile": "8080038540",
+      "Amout_of_Loan": "8000",
+      "interst_percentage": "1.00",
+      "Month_duration_of_loan": "6",
+      "totalAmount": 8140,
+      "userId": 2,
+      "totalInterest": 140,
+      "EMI": 1357,
+      "installment": [
+        {
+          "date": "2023-11-4",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 1
+        },
+        {
+          "date": "2023-11-5",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 2
+        },
+        {
+          "date": "2023-11-6",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 3
+        },
+        {
+          "date": "2023-11-7",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 4
+        },
+        {
+          "date": "2023-11-8",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 5
+        },
+        {
+          "date": "2023-11-9",
+          "status": "pending",
+          "EMI": 1357,
+          "id": 6
+        }
+      ],
+      "date": "2023-11-04",
+      "by": "employee",
+      "employeeId": 1,
+      "id": 2
+    },
+    {
+      "name": "ashish",
+      "email": "ashish123@gmail.com",
+      "password": "123",
+      "mobile": "81992010021",
+      "Amout_of_Loan": "5000",
+      "interst_percentage": "5",
+      "Month_duration_of_loan": "5",
+      "totalAmount": 5146,
+      "totalInterest": 146,
+      "date": "2023-11-04",
+      "userId": 3,
+      "status": "pending",
+      "by": "Admin",
+      "installment": [
+        {
+          "date": "2023-11-4",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 0
+        },
+        {
+          "date": "2023-11-5",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 1
+        },
+        {
+          "date": "2023-11-6",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 2
+        },
+        {
+          "date": "2023-11-7",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 3
+        },
+        {
+          "date": "2023-11-8",
+          "status": "pending",
+          "EMI": 1029,
+          "id": 4
+        }
+      ],
+      "EMI": 1029,
+      "id": 3
+    }
+  ]
+}
